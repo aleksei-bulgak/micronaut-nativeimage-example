@@ -1,0 +1,25 @@
+micronaut:
+  application:
+    name: demo
+
+datasources:
+  default:
+    url: jdbc:postgresql://<DATABASE_HOST>:5432/<DATABASE_NAME>
+#    jdbcUrl: jdbc:postgresql://<DATABASE_HOST>:5432/<DATABASE_NAME>
+    username: <USERNAME>
+    password: <PASSWORD>
+    driverClassName: org.postgresql.Driver
+#    connectionTestQuery: "SELECT 2"
+#    maxLifetime: 60000
+#    maximumPoolSize: 1
+#    poolName: "test"
+
+jpa:
+  default:
+    entity-scan:
+      packages:
+        - com.example.model
+    properties:
+      hibernate:
+        show_sql: true
+        dialect: org.hibernate.dialect.PostgreSQL95Dialect
