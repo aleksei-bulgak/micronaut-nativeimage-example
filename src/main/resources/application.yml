@@ -5,14 +5,14 @@ micronaut:
 datasources:
   default:
     url: jdbc:postgresql://<DATABASE_HOST>:5432/<DATABASE_NAME>
-#    jdbcUrl: jdbc:postgresql://<DATABASE_HOST>:5432/<DATABASE_NAME>
+    jdbcUrl: jdbc:postgresql://<DATABASE_HOST>:5432/<DATABASE_NAME>
     username: <USERNAME>
     password: <PASSWORD>
     driverClassName: org.postgresql.Driver
-#    connectionTestQuery: "SELECT 2"
-#    maxLifetime: 60000
-#    maximumPoolSize: 1
-#    poolName: "test"
+    connectionTestQuery: "SELECT 2"
+    maxLifetime: 60000
+    maximumPoolSize: 1
+    poolName: "test"
 
 jpa:
   default:

@@ -85,18 +85,16 @@
             <groupId>io.micronaut.data</groupId>
             <artifactId>micronaut-data-hibernate-jpa</artifactId>
         </dependency>
-<!--        <dependency>-->
-<!--            <groupId>io.micronaut.configuration</groupId>-->
-<!--            <artifactId>micronaut-jdbc-hikari</artifactId>-->
-<!--            <version>1.2.3</version>-->
-<!--            <scope>runtime</scope>-->
-<!--        </dependency>-->
-        <!-- https://mvnrepository.com/artifact/io.micronaut.configuration/micronaut-jdbc-tomcat -->
         <dependency>
             <groupId>io.micronaut.configuration</groupId>
-            <artifactId>micronaut-jdbc-tomcat</artifactId>
-            <scope>runtime</scope>
+            <artifactId>micronaut-jdbc-hikari</artifactId>
         </dependency>
+        <!-- https://mvnrepository.com/artifact/io.micronaut.configuration/micronaut-jdbc-tomcat -->
+<!--        <dependency>-->
+<!--            <groupId>io.micronaut.configuration</groupId>-->
+<!--            <artifactId>micronaut-jdbc-tomcat</artifactId>-->
+<!--            <scope>runtime</scope>-->
+<!--        </dependency>-->
 
 
         <dependency>

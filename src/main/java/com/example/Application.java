@@ -10,7 +10,9 @@ import org.hibernate.internal.SessionFactoryImpl;
         PostgreSQL95Dialect.class,
         SessionFactoryImpl.class,
         org.postgresql.PGProperty.class,
-        UUIDGenerator.class
+        UUIDGenerator.class,
+        com.zaxxer.hikari.util.ConcurrentBag.class,
+
 }, accessType = {TypeHint.AccessType.ALL_PUBLIC})
 public class Application {
 
